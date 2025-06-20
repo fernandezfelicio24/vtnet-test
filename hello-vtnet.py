@@ -48,6 +48,24 @@ def calculator_function():
 
 
 if __name__ == "__main__":
-    #hello_world_function()  # Uncommented to run the function
-    calculator_function()
+    while True:
+        print("\n=== Menu ===")
+        print("1. Run Hello World Function")
+        print("2. Run Odd Even Test")
+        print("3. Run Calculator")
+        print("4. Exit")
+
+        choice = input("Enter your choice (1-4): ")
+
+        if choice == "1":
+            hello_world_function()
+        elif choice == "2":
+            odd_even_function()
+        elif choice == "3":
+            calculator_function()
+        elif choice == "4":
+            print("Exiting program. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 4.")
 
