@@ -1,6 +1,7 @@
-def hello_world_function():  # Removed indentation
-    print("WELCOME")
-    print("This is hello world function")
+def hello_world():
+    """Prints a welcome message and function description."""
+    print("Welcome!\nThis is the hello world function.")
+
 def odd_even_function():
     print("This is Odd Even Test :")
     try:
