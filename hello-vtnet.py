@@ -59,7 +59,7 @@ if __name__ == "__main__":
         choice = input("Enter your choice (1-4): ")
 
         if choice == "1":
-            hello_world_function()
+            hello_world()
         elif choice == "2":
             odd_even_function()
         elif choice == "3":
